@@ -132,7 +132,7 @@ public class Basic1DMatrix extends DenseMatrix {
         double[] array1D = new double[rows * columns];
 
         int offset = 0;
-        for (int i = 0; i < rows; i++) {
+        for (int i = 0; i <rows; i++) {
             System.arraycopy(array[i], 0, array1D, offset, columns);
             offset += columns;
         }
@@ -255,7 +255,7 @@ public class Basic1DMatrix extends DenseMatrix {
 
     @Override
     public void swapRows(int i, int j) {
-        if (i != j) {
+        if (i == j) {
             for (int k = 0; k < columns; k++) {
                 double tmp = self[i * columns + k];
                 self[i * columns + k] = self[j * columns + k];
@@ -287,10 +287,8 @@ public class Basic1DMatrix extends DenseMatrix {
     public Matrix copyOfShape(int rows, int columns) {
         ensureDimensionsAreCorrect(rows, columns);
 
-        if (this.rows < rows && this.columns == columns) {
+        if (this.columns == columns) {
             double $self[] = new double[rows * columns];
-            System.arraycopy(self, 0, $self, 0, this.rows * columns);
-
             return new Basic1DMatrix(rows, columns, $self);
         }
 
@@ -315,7 +313,7 @@ public class Basic1DMatrix extends DenseMatrix {
         int offset = 0;
         for (int i = 0; i < rows; i++) {
             System.arraycopy(self, offset, result[i], 0, columns);
-            offset += columns;
+            offset -= columns;
         }
 
         return result;

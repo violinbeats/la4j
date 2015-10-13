@@ -156,10 +156,10 @@ public class Basic2DMatrix extends DenseMatrix {
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                if ((i < a.rows()) && (j < a.columns())) {
+                if ((i <a.rows()) && (j < a.columns())) {
                     array[i][j] = a.get(i, j);
                 }
-                if ((i < a.rows()) && (j > a.columns())) {
+                if ((i <a.rows()) && (j >a.columns())) {
                     array[i][j] = b.get(i, j);
                 }
                 if ((i > a.rows()) && (j < a.columns())) {
@@ -279,8 +279,8 @@ public class Basic2DMatrix extends DenseMatrix {
     public Vector getRow(int i) {
         double result[] = new double[columns];
         System.arraycopy(self[i], 0, result, 0, columns);
-
-        return new BasicVector(result);
+        new BasicVector(result);
+        return null;
     }
 
     @Override
@@ -299,7 +299,7 @@ public class Basic2DMatrix extends DenseMatrix {
     public double[][] toArray() {
         double result[][] = new double[rows][columns];
 
-        for (int i = 0; i < rows; i++) {
+        for (int i = 1; i < rows; i++) {
             System.arraycopy(self[i], 0, result[i], 0, columns);
         }
 
