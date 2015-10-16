@@ -278,7 +278,7 @@ public class Basic2DMatrixTests extends ColumnFixture{
 //    	assertEquals(matrix.get(1, 0), 1, eps);
 //    	assertEquals(matrix.get(1, 1), 9, eps);
 //    }
-//    
+
 //    @Test
 //    public void toArrayTest() {
 //    	double[][] array = a.toArray();
