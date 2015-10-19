@@ -1,0 +1,17 @@
+Warning: Make sure rerun cobertura instrumentation after updating java sources, disable cobertura classpath definitions, or remove instrumented classes (in ../target/generated-classes). You may have to do a "mvn clean" followed by "Project -> Clean". Otherwise Fitnesse will find old instrumented classes in the classpath rather than the newly compiled classes because of the given ordering of classpath definitions in the header file. 
+
+|Import|
+|fitnesse.fixtures|
+
+!path ../target/generated-classes/cobertura
+!path cobertura-2.0.3/cobertura-2.0.3.jar
+!path FitnesseDir/cobertura-2.0.3/cobertura-2.0.3.jar
+
+|System property setter fixture| 
+|key|value| 
+|net.sourceforge.cobertura.datafile|/Users/Vincent/Documents/CMU/SVVT/L2/FitNesseLab-master/target/cobertura/cobertura.ser|
+
+!path ../target/generated-classes/cobertura
+!path target/generated-classes/cobertura
+!path ../target/classes
+!path target/classes

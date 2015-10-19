@@ -1,0 +1,113 @@
+!1 Triangle Input Space Model and Test Cases
+
+!include .FitNesse.MyFitExamples.TriangleExample.TriangleSuite
+
+!2 Attributes and Characteristics
+
+| Comment |
+| Attributes - each attribute represents length of a side as an integer|
+| a | b | c |
+
+| Comment  |
+| Characteristics and Partitions |
+| Characteristic  | Definition | Partition | Notes / Constraints |
+| DomainOf_a      | Relation of a to 1 | a<1, a=1, a>1  | lower robust boundary value |
+| DomainOf_b      | Relation of b to 1 | b<1, b=1, b>1  | lower robust boundary value |
+| DomainOf_c      | Relation of b to 1 | b<1, b=1, b>1  | lower robust boundary value |
+| Valid           | Validity of triangle | T, F | T if a,b,c>=1 & a+b>c & b+c>a & a+c>b; F otherwise |
+| Classification  | One of three triangle types  | EQUILATERAL, SCALENE, ISOSCELES | if Valid | EQUILATERAL: a=b=c | SCALENE: a!=b, b!=c, c!=a | ISOSCELES: a=b or b=c or c=a, but not a=b=c |
+| !-RightAngled-! | Whether triangle has a right angle | T, F | if Valid |  EQUILATERAL cannot be right angled | !-RightAngled-!: a*a=b*b+c*c or b*b=a*a+b*b or c*c=a*a+b*b |
+
+
+!2 Test Design Strategy 
+
+1. Apply Base-Choice for DomainOf_a, DomainOf_b, DomainOf_c.
+2. Assume a,b,c>=1. Combine result with remaining conditions of Valid using All-Combinations of these conditions.
+3. For only Valid: consider All (feasible) Combinations of Classification and !-RightAngled-!.
+4. For ISOSCELES and SCALENE: add to 3 all disjunctive conditions. 
+
+!3 Step 1 
+
+| Comment |
+| Base-Choice combinations for DomainOf_a, DomainOf_b, DomainOf_c |
+| Base Case = (1, 1, 1) |
+| Case | DomainOf_a | DomainOf_b | DomainOf_c | Valid | Variation |
+| B1   | a=1        | b=1        | c=1        | T     | Base Case | 
+| B2   | a=1        | b=1        | c>1        | T     | c         |
+| B3   | a=1        | b=1        | c<1        | F     | c         |
+| B4   | a=1        | b>1        | c=1        | T     | b         |
+| B5   | a=1        | b<1        | c=1        | F     | b         |
+| B6   | a>1        | b=1        | c=1        | T     | a         |
+| B7   | a<1        | b=1        | c=1        | F     | a         |
+| 7 Test Cases                                                    |
+
+!3 Step 2
+ 
+| Comment |
+| Decision Table for Valid |
+| Stub         | R1| R2| R3| R4| R5| Coverage |
+| c.a,b,c>=1?  | F | T | T | T | T |          |
+| c.a+b>c?     | - | T | F | T | T |          |
+| c.a+c>b?     | - | T | - | F | T |          |
+| c.b+c>a?     | - | T | - | - | F |          |
+| a.Valid      |   | X |   |   |   | Ok       |
+| a.Invalid    | X |   | X | X | X | Ok       |
+| a.Impossible |   |   |   |   |   | N/A      |
+| Rule Count   | 8 | 1 | 4 | 2 | 1 | 16 = 2^4 |
+| 3 Test Cases for R3-R5 (R1,R2 covered by B1-B7)  |
+
+!3 Steps 3-4
+
+| Comment |
+| All feasible combinations of Classification and !-RightAngled-! for Valid |
+| Case | Classification       | !-RightAngled-! | Impossible |
+| C1   | EQUILATERAL          | T               | X          |
+| C2   | EQUILATERAL          | F               |            |
+| C3   | ISOSCELES (a=b)      | T               | X          |
+| C4   | ISOSCELES (a=b       | F               |            |
+| C5   | ISOSCELES (b=c)      | T               | X          |
+| C6   | ISOSCELES (b=c)      | F               |            |
+| C7   | ISOSCELES (a=c)      | T               | X          |
+| C8   | ISOSCELES (a=c)      | F               |            |
+| C9   | SCALENE (a*a=b*b+c*c)| T               |            |
+| C10  | SCALENE (b*b=a*a+c*c)| T               |            |
+| C11  | SCALENE (c*c=b*b+a*a)| T               |            |
+| C12  | SCALENE              | F               |            |
+| 7 Test Cases (4 impossible, C2 is covered by B1)           |
+
+!2 Test Cases for Triangle 
+
+
+| fit.triangle.TriangleType|
+|      |        | a  | b  | c  | classification? | isRightAngled? |
+| Case | Source |                                                 |   
+|  1   | B1     | 1  | 1  | 1  | EQUILATERAL     | false          | 
+|  2   | B2     | 1  | 1  | 2  | error           | error          | 
+|  3   | B3     | 1  | 1  | 0  | error           | error          | 
+|  4   | B4     | 1  | 2  | 1  | error           | error          | 
+|  5   | B5     | 1  | 0  | 1  | error           | error          | 
+|  6   | B6     | 2  | 1  | 1  | error           | error          | 
+|  7   | B7     | 0  | 1  | 1  | error           | error          | 
+|  8   | R3     | 1  | 2  | 4  | error           | error          | 
+|  9   | R4     | 1  | 4  | 2  | error           | error          | 
+|  10  | R5     | 4  | 1  | 2  | error           | error          | 
+|  11  | C4     | 2  | 2  | 3  | ISOSCELES       | false          | 
+|  12  | C6     | 3  | 2  | 2  | ISOSCELES       | false          | 
+|  13  | C8     | 2  | 3  | 2  | ISOSCELES       | false          | 
+|  14  | C9     | 5  | 4  | 3  | SCALENE         | true           | 
+|  15  | C10    | 4  | 5  | 3  | SCALENE         | true           | 
+|  16  | C11    | 3  | 4  | 5  | SCALENE         | true           | 
+|  17  | C12    | 2  | 3  | 4  | SCALENE         | false          | 
+
+!2 Results
+
+Two failures in this case were caught by systematic testing, but not ad-hoc unit testing. The classify() method forgot to consider the cases where b=c or c=a for isosceles triangles.
+
+The test suite is not catching the fault in valid() int the compound condition (a <= 0  ||  b <= 0  ||  b <= 0) ["b <= 0" should be "c <= 0"] 
+because case B3 values are chosen such 
+that the triangle is still invalid due to subsequent Valid conditions.  
+
+In fact, the compound condition in the code is not necessary since it's subsumed by the subsequent conditions in Valid. 
+We can easily show (a < b + c  &&  b < a + c  &&  c < b + a) implies (a > 0  &&  b > 0  &&  c > 0). 
+Thus we can't find triples (a, b, c) such that both (a <= 0 || b <= 0 || b <= 0) and (a < b + c  &&  b < a + c  &&  c < b + a). 
+

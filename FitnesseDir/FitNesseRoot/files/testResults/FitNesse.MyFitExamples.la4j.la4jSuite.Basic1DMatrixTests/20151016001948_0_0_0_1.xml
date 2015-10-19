@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>FitNesse.MyFitExamples.la4j.la4jSuite.Basic1DMatrixTests</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <runTimeInMillis>4</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;h1&gt;Input Space Model and Test Cases for la4j&lt;/h1&gt;
+&lt;br/&gt;&lt;h2&gt;Test Cases&lt;/h2&gt;
+&lt;br/&gt;Notes...&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;fit.denseMatrix.diagonalMatrix.java&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: fit.denseMatrix.diagonalMatrix.java.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;size&lt;/td&gt;
+		&lt;td&gt;diagonal&lt;/td&gt;
+		&lt;td&gt;diagonalValue?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>Basic1DMatrixTests</relativePageName>
+          </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>4</totalRunTimeInMillis>
+  
+</testResults>
+

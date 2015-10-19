@@ -1,0 +1,8 @@
+
+!3 !-fit:fit.FitServer-!
+|'''Date: '''| 3:30:27 PM (PDT) on Friday, October 2, 2015 |
+|'''Test Page: '''|.FitNesse.MyFitExamples.WeeklyTimesheet.TimesheetSuite|
+|'''Command: '''| !-java -cp fitnesse-standalone.jar:../target/generated-classes/cobertura:cobertura-2.0.3/cobertura-2.0.3.jar:FitnesseDir/cobertura-2.0.3/cobertura-2.0.3.jar:target/generated-classes/cobertura:../target/classes:target/classes:classes:lib/*.jar fit.FitServer home 52281 3863-! |
+|'''Exit code: '''| 2 |
+|'''Time elapsed: '''| 0.645 seconds |
+

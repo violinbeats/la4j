@@ -1,0 +1,9 @@
+!include .FitNesse.MyFitExamples.WeeklyTimesheet.TimesheetHeader
+
+
+| fit.timesheet.WeeklyCompensation |
+| standardHours | holidayHours| wage | pay?   | totalHours? | 
+| 10            | 5           |  10  | 150    | 15          | 
+| 5             | 20          |  10  | error    | error          | 
+| 0             | 0           |  10  | 0      |  0          | 
+

@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>FitNesse.MyFitExamples.LaFourJ.JSuite.Basic2DMatrixTests.Basic2DMatrixTests-FunctionalityTesting</rootPath>
+    <result>
+    <counts>
+      <right>8</right>
+      <wrong>0</wrong>
+      <ignores>23</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>111</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;h1&gt;Input Space Model and Test Cases for la4j&lt;/h1&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.MyFitExamples.DateExample.DateHeader"&gt;.FitNesse.MyFitExamples.DateExample.DateHeader&lt;/a&gt; &lt;a href="FitNesse.MyFitExamples.DateExample.DateHeader?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;Warning: Make sure rerun cobertura instrumentation after updating java sources, disable cobertura classpath definitions, or remove instrumented classes (in ../target/generated-classes). You may have to do a "mvn clean" followed by "Project -&amp;gt; Clean". Otherwise Fitnesse will find old instrumented classes in the classpath rather than the newly compiled classes because of the given ordering of classpath definitions in the header file. &lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;fitnesse.fixtures&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: cobertura-2.0.3/cobertura-2.0.3.jar&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: FitnesseDir/cobertura-2.0.3/cobertura-2.0.3.jar&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;System property setter fixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;key&lt;/td&gt;
+		&lt;td&gt;value&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;net.sourceforge.cobertura.datafile&lt;/td&gt;
+		&lt;td&gt;/Users/Vincent/Documents/CMU/SVVT/L2/FitNesseLab-master/target/cobertura/cobertura.ser&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/classes&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/classes&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;1. First test the behaviors of each class&lt;br/&gt;2. Use combinatorial method to test the input spec&lt;br/&gt;3. ...&lt;br/&gt;&lt;br/&gt;Attributes of Basic2DMatrix&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;Comment&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3" class="ignore"&gt;Attributes&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;Method&lt;/td&gt;
+		&lt;td class="ignore"&gt;rows&lt;/td&gt;
+		&lt;td class="ignore"&gt;columns&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;h2&gt;Test Cases&lt;/h2&gt;
+&lt;br/&gt;Notes...&lt;br/&gt;&lt;br/&gt;1. zero&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;zeroBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;cases&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;true&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;2. constant&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;constantBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;cases&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;true&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;3. diagonal&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;diagnolBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;cases&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;true&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;4. unit&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;unitBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;cases&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;true&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;5. identity&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;identityBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;cases&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;true&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;6. random&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;randomBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;cases&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;false&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;6. randomSymmentric&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;randomSymmentricBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;cases&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;false&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;6. from1DArray&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;from1DArrayTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;cases&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;true&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>Basic2DMatrixTests-FunctionalityTesting</relativePageName>
+          </result>
+      <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>111</totalRunTimeInMillis>
+  
+</testResults>
+

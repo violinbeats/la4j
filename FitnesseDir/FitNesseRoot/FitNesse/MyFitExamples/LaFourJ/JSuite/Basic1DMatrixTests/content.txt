@@ -1,0 +1,22 @@
+!1 Input Space Model and Test Cases for la4j
+
+!include .FitNesse.MyFitExamples.DateExample.DateHeader
+
+Attributes of Basic1DMatrix
+
+|Comment            |
+|Attributes         |
+|Method|rows|columns|
+|      |    |       |
+
+
+!2 Test Cases
+
+Notes...
+
+
+|fit.org.la4j.matrix.dense.diagonalMatrix|
+|      |size  |diagonal  |diagonalValue? |
+|Case  |                                 |
+|1     |1     |2         |2              |
+|2     |5     |3         |3              |

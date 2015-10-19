@@ -1,0 +1,12 @@
+
+!3 !-fit:fit.FitServer-!
+|'''Date: '''| 10:15:55 PM (PDT) on Sunday, October 18, 2015 |
+|'''Test Page: '''|.FitNesse.MyFitExamples.LaFourJ.JSuite.Basic2DMatrixTests.Basic2DMatrixTests-FunctionalityTesting|
+|'''Command: '''| !-java -cp fitnesse-standalone.jar:../target/generated-classes/cobertura:cobertura-2.0.3/cobertura-2.0.3.jar:FitnesseDir/cobertura-2.0.3/cobertura-2.0.3.jar:target/generated-classes/cobertura:../target/classes:target/classes:classes:lib/*.jar fit.FitServer home 52796 3863-! |
+|'''Exit code: '''| 27 |
+|'''Time elapsed: '''| 0.881 seconds |
+
+----
+'''Standard Output:'''
+{{{0.5950033885309475
+}}}

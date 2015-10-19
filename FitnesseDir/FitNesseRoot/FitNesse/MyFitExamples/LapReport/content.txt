@@ -1,0 +1,58 @@
+!contents -R2 -g -p -f -h
+
+LAB REPORT - Test Design Exercises
+
+Name: Vincent Su
+Andrew ID: shengchs
+URL of your github repo (optional): github.com/violinbeats
+--
+-- 1. Summary
+
+Before the lab, I created and set up the Fitnesse wiki page and followed through the 
+demo and read the documentation on how it works as a testing tool. And during the lab
+I created my wiki page for the Date class I wrote in Eclipse. I created a table for the 
+attributes and their constraints first, then I designed a strategy table to show how I am 
+going to test my program. Then at the end I created several test cases that mirror my strategies 
+to test my Date class and observe the faults it reveals.
+
+- Attributes and constraints table created.
+- Design strategy table created.
+- Test cases generated.
+- Test conducted.
+- Faults revealed.
+
+The strategy of testing and the test cases have not been implemented to cover all possible cases 
+due to time limit. For instance, the 30th day of a 30-day month should be tested, but was not. And 
+cases such as the 29th day of February (leap year) and the 30th day of February (doesn't exist) should
+also be included in the test.
+
+-- 2. Lessons Learned
+
+Through this exercise, I learned how to use Fitnesses to create my own test cases to test the semantic 
+functionality of my project, and to use the mark up language provided to create readable tables for users to 
+easily see the results. I also learned the work flow of using Fitnesses typically involve setting up the 
+attributes first, which can be partitioned into blocks, and then design a testing strategy based on the 
+attributes and their constraints, and finally, write up test cases that mirror the testing strategy. One 
+important thing I will need to put more emphasis on is to set up a good attribute table carefully, as well 
+as the testing strategy. These two parts are the beginning of this testing process, but they are so important that
+they directly determine the quality of the tests. It requires a lot of analysis and insight to come up with 
+good test design.
+
+Though Fitnesses is not very easy to pick up, it works like a breeze once the entire workflow is developed. I 
+struggled a lot during the table setup stage because I had no clue how to use these tables and how to work with
+them. After I knew what to do to design the test tables, the biggest challenge I faced was to design a good 
+testing strategy that covers all possible cases to test my program, namely to test it exhaustively. During the 
+designing stage, I often wondered if the attribute table I drew up at the beginning was good enough and if it 
+was suitable for the program I was testing. Though the lab did not allow us much time and the purpose was to 
+experience how Fitnesses works and learn about testing, I learned that a good testing design requires time. One 
+needs to investigate and study how the program works to really come up with a good attribute table with constraints, 
+and to design test cases that cover all possible scenarios. 
+
+My tests cover a good part of the more obvious cases of the Date class, though not all. The faults my test revealed were 
+mainly on the nextDate method. When the input is the end of the month, the next date should be the next month, instead
+of becoming 32 in a 31-day month. This is because the program did not implement the method correctly to roll over to the next
+month or the next year, given the month being December.
+
+Once the test ran successfully (even with faults revealed), I was very glad and relieved. As mentioned above, my tests are not 
+exhaustive and do not cover all cases that I was able to discover, but it certainly works, which makes me confident and comfortable
+using Fitnesses to write such input specification testing module in the future.

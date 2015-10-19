@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>FitNesse.MyFitExamples.DateExample.DateSuite</rootPath>
+    <pageHistoryReference>
+    <name>FitNesse.MyFitExamples.DateExample.DateSuite.NextDate</name>
+    <date>10/02/2015 15:35:15</date>
+    <pageHistoryLink>FitNesse.MyFitExamples.DateExample.DateSuite.NextDate?pageHistory&amp;resultDate=20151002153515</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>114</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>28</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>1</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>532</totalRunTimeInMillis>
+
+</suiteResults>
+

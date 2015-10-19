@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>FitNesse.MyFitExamples.WeeklyTimesheet.TimesheetSuite</rootPath>
+    <pageHistoryReference>
+    <name>FitNesse.MyFitExamples.WeeklyTimesheet.TimesheetSuite.WeeklyCompensation</name>
+    <date>10/01/2015 20:40:45</date>
+    <pageHistoryLink>FitNesse.MyFitExamples.WeeklyTimesheet.TimesheetSuite.WeeklyCompensation?pageHistory&amp;resultDate=20151001204045</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <runTimeInMillis>33</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>717</totalRunTimeInMillis>
+
+</suiteResults>
+

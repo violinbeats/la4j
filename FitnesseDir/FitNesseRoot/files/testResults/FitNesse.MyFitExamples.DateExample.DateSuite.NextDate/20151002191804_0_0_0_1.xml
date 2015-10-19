@@ -1,0 +1,508 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>FitNesse.MyFitExamples.DateExample.DateSuite.NextDate</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>153</ignores>
+      <exceptions>4</exceptions>
+    </counts>
+    <runTimeInMillis>53</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;h1&gt;Input Space Model and Test Cases for Date Example&lt;/h1&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.MyFitExamples.DateExample.DateHeader"&gt;.FitNesse.MyFitExamples.DateExample.DateHeader&lt;/a&gt; &lt;a href="FitNesse.MyFitExamples.DateExample.DateHeader?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;Warning: Make sure rerun cobertura instrumentation after updating java sources, disable cobertura classpath definitions, or remove instrumented classes (in ../target/generated-classes). You may have to do a "mvn clean" followed by "Project -&amp;gt; Clean". Otherwise Fitnesse will find old instrumented classes in the classpath rather than the newly compiled classes because of the given ordering of classpath definitions in the header file. &lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;fitnesse.fixtures&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: cobertura-2.0.3/cobertura-2.0.3.jar&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: FitnesseDir/cobertura-2.0.3/cobertura-2.0.3.jar&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;System property setter fixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;key&lt;/td&gt;
+		&lt;td&gt;value&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;net.sourceforge.cobertura.datafile&lt;/td&gt;
+		&lt;td&gt;/Users/Vincent/Documents/CMU/SVVT/L2/FitNesseLab-master/target/cobertura/cobertura.ser&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/classes&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/classes&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h2&gt;Attributes and Characteristics&lt;/h2&gt;
+&lt;br/&gt;Attributes of Date&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;Comment&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3" class="ignore"&gt;Attributes&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;day&lt;/td&gt;
+		&lt;td class="ignore"&gt;month&lt;/td&gt;
+		&lt;td class="ignore"&gt;year&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;Comment&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="ignore"&gt;Characteristics and Partitions&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;Characteristic&lt;/td&gt;
+		&lt;td class="ignore"&gt;Definition&lt;/td&gt;
+		&lt;td class="ignore"&gt;Partition&lt;/td&gt;
+		&lt;td class="ignore"&gt;Notes / Constraints&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;day&lt;/td&gt;
+		&lt;td class="ignore"&gt;Day&lt;/td&gt;
+		&lt;td class="ignore"&gt;day &amp;lt; 1, day &amp;gt;= 1 &amp;amp; day &amp;lt;= 28, day = 29, day = 30, day = 31, day &amp;gt; 31&lt;/td&gt;
+		&lt;td class="ignore"&gt;Cases of day&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;month&lt;/td&gt;
+		&lt;td class="ignore"&gt;Month&lt;/td&gt;
+		&lt;td class="ignore"&gt;month &amp;lt; 1, month = {1,3,5,7,8,10}, month = {2,4,6,9,11}, month = 12, month &amp;gt; 12&lt;/td&gt;
+		&lt;td class="ignore"&gt;Cases of month&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;year&lt;/td&gt;
+		&lt;td class="ignore"&gt;Year&lt;/td&gt;
+		&lt;td class="ignore"&gt;year &amp;lt; 1900, year &amp;gt;= 1900 &amp;amp; year &amp;lt; 2000, year = 2000, year &amp;gt; 2000 &amp;amp; year &amp;lt;= 2200, year &amp;gt; 2200&lt;/td&gt;
+		&lt;td class="ignore"&gt;Cases of year&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;normal_leapyear&lt;/td&gt;
+		&lt;td class="ignore"&gt;If the year is a leap year&lt;/td&gt;
+		&lt;td class="ignore"&gt;T,F&lt;/td&gt;
+		&lt;td class="ignore"&gt;T if year % 4 == 0; F otherwise&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;century_leapyear&lt;/td&gt;
+		&lt;td class="ignore"&gt;If the year is a leap year&lt;/td&gt;
+		&lt;td class="ignore"&gt;T,F&lt;/td&gt;
+		&lt;td class="ignore"&gt;T if year % 4 == 0 &amp;amp; year % 400 == 0; F otherwise&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;h2&gt;Test Design Strategy&lt;/h2&gt;
+&lt;br/&gt;1. First test if day, month, and year are valid individually.&lt;br/&gt;2. Then test the combinations of them.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="6"&gt;Comment&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="6" class="ignore"&gt;Base-Choice combinations for DomainOf_day, DomainOf_month, and DomainOf_year&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="6" class="ignore"&gt;Base Case = (1, 1, 2001)&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;Case&lt;/td&gt;
+		&lt;td class="ignore"&gt;DomainOf_day&lt;/td&gt;
+		&lt;td class="ignore"&gt;DomainOf_month&lt;/td&gt;
+		&lt;td class="ignore"&gt;DomainOf_year&lt;/td&gt;
+		&lt;td class="ignore"&gt;Valid&lt;/td&gt;
+		&lt;td class="ignore"&gt;Variation&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;B1&lt;/td&gt;
+		&lt;td class="ignore"&gt;day = 1&lt;/td&gt;
+		&lt;td class="ignore"&gt;month = 1&lt;/td&gt;
+		&lt;td class="ignore"&gt;year 2001&lt;/td&gt;
+		&lt;td class="ignore"&gt;T&lt;/td&gt;
+		&lt;td class="ignore"&gt;Base case&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;B2&lt;/td&gt;
+		&lt;td class="ignore"&gt;day = 1&lt;/td&gt;
+		&lt;td class="ignore"&gt;month = 1&lt;/td&gt;
+		&lt;td class="ignore"&gt;year &amp;gt; 2200&lt;/td&gt;
+		&lt;td class="ignore"&gt;F&lt;/td&gt;
+		&lt;td class="ignore"&gt;year&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;B3&lt;/td&gt;
+		&lt;td class="ignore"&gt;day = 1&lt;/td&gt;
+		&lt;td class="ignore"&gt;month = 1&lt;/td&gt;
+		&lt;td class="ignore"&gt;year &amp;lt; 1900&lt;/td&gt;
+		&lt;td class="ignore"&gt;F&lt;/td&gt;
+		&lt;td class="ignore"&gt;year&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;B4&lt;/td&gt;
+		&lt;td class="ignore"&gt;day = 1&lt;/td&gt;
+		&lt;td class="ignore"&gt;month &amp;gt; 12&lt;/td&gt;
+		&lt;td class="ignore"&gt;year = 2001&lt;/td&gt;
+		&lt;td class="ignore"&gt;F&lt;/td&gt;
+		&lt;td class="ignore"&gt;month&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;B5&lt;/td&gt;
+		&lt;td class="ignore"&gt;day = 1&lt;/td&gt;
+		&lt;td class="ignore"&gt;month &amp;lt; 1&lt;/td&gt;
+		&lt;td class="ignore"&gt;year = 2001&lt;/td&gt;
+		&lt;td class="ignore"&gt;F&lt;/td&gt;
+		&lt;td class="ignore"&gt;month&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;B6&lt;/td&gt;
+		&lt;td class="ignore"&gt;day &amp;gt; 31&lt;/td&gt;
+		&lt;td class="ignore"&gt;month = 1&lt;/td&gt;
+		&lt;td class="ignore"&gt;year = 2001&lt;/td&gt;
+		&lt;td class="ignore"&gt;F&lt;/td&gt;
+		&lt;td class="ignore"&gt;day&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;B7&lt;/td&gt;
+		&lt;td class="ignore"&gt;day &amp;lt; 1&lt;/td&gt;
+		&lt;td class="ignore"&gt;month = 1&lt;/td&gt;
+		&lt;td class="ignore"&gt;year = 2001&lt;/td&gt;
+		&lt;td class="ignore"&gt;F&lt;/td&gt;
+		&lt;td class="ignore"&gt;day&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;| Comment |&lt;br/&gt;|Combinations to check whether the values are valid given the values of others.&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;Case&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: Case.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Day&lt;/td&gt;
+		&lt;td&gt;Month&lt;/td&gt;
+		&lt;td&gt;Year&lt;/td&gt;
+		&lt;td&gt;Valid Day&lt;/td&gt;
+		&lt;td&gt;Valid Month&lt;/td&gt;
+		&lt;td&gt;Valid Year&lt;/td&gt;
+		&lt;td&gt;Valid nextDay&lt;/td&gt;
+		&lt;td&gt;Valid isLeapyear&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&amp;lt;1&lt;/td&gt;
+		&lt;td&gt;1&amp;lt;=_&amp;lt;=12&lt;/td&gt;
+		&lt;td&gt;1900&amp;lt;=_&amp;lt;=2200&lt;/td&gt;
+		&lt;td&gt;F&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;&amp;lt;1&lt;/td&gt;
+		&lt;td&gt;&amp;lt;1&lt;/td&gt;
+		&lt;td&gt;1900&amp;lt;=_&amp;lt;=2200&lt;/td&gt;
+		&lt;td&gt;F&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;&amp;lt;1&lt;/td&gt;
+		&lt;td&gt;&amp;gt;12&lt;/td&gt;
+		&lt;td&gt;&amp;lt;1900&lt;/td&gt;
+		&lt;td&gt;F&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;&amp;lt;1&lt;/td&gt;
+		&lt;td&gt;&amp;gt; 12&lt;/td&gt;
+		&lt;td&gt;&amp;gt;2200&lt;/td&gt;
+		&lt;td&gt;F&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;1&amp;lt;=_&amp;lt;=31&lt;/td&gt;
+		&lt;td&gt;&amp;lt; 1&lt;/td&gt;
+		&lt;td&gt;1900&amp;lt;=_&amp;lt;=2200&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;F&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;1&amp;lt;=_&amp;lt;=31&lt;/td&gt;
+		&lt;td&gt;&amp;gt;12&lt;/td&gt;
+		&lt;td&gt;1900&amp;lt;=_&amp;lt;=2200&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;F&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;1&amp;lt;=_&amp;lt;=31&lt;/td&gt;
+		&lt;td&gt;1&amp;lt;=_&amp;lt;=12&lt;/td&gt;
+		&lt;td&gt;&amp;lt; 1900&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;F&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;1&amp;lt;=_&amp;lt;=31&lt;/td&gt;
+		&lt;td&gt;1&amp;lt;=_&amp;lt;=12&lt;/td&gt;
+		&lt;td&gt;&amp;gt; 2200&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;F&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;31&lt;/td&gt;
+		&lt;td&gt;31 day&lt;/td&gt;
+		&lt;td&gt;&amp;lt;2200 and %4&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;31&lt;/td&gt;
+		&lt;td&gt;30 day&lt;/td&gt;
+		&lt;td&gt;&amp;lt;2200 and %4&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+		&lt;td&gt;T&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;&amp;lt;1&lt;/td&gt;
+		&lt;td&gt;1&amp;lt;=_&amp;lt;=12&lt;/td&gt;
+		&lt;td&gt;&amp;gt;2200&lt;/td&gt;
+		&lt;td&gt;F&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;&amp;lt;1&lt;/td&gt;
+		&lt;td&gt;1&amp;lt;=_&amp;lt;=12&lt;/td&gt;
+		&lt;td&gt;&amp;gt;2200&lt;/td&gt;
+		&lt;td&gt;F&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;&amp;lt;1&lt;/td&gt;
+		&lt;td&gt;1&amp;lt;=_&amp;lt;=12&lt;/td&gt;
+		&lt;td&gt;&amp;gt;2200&lt;/td&gt;
+		&lt;td&gt;F&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;&amp;lt;1&lt;/td&gt;
+		&lt;td&gt;1&amp;lt;=_&amp;lt;=12&lt;/td&gt;
+		&lt;td&gt;&amp;gt;2200&lt;/td&gt;
+		&lt;td&gt;F&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="6"&gt;Comment&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;C1&lt;/td&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td class="ignore"&gt;2000&lt;/td&gt;
+		&lt;td class="ignore"&gt;1.2.2000&lt;/td&gt;
+		&lt;td class="ignore"&gt;T&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;C2&lt;/td&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td class="ignore"&gt;2001&lt;/td&gt;
+		&lt;td class="ignore"&gt;1.2.2001&lt;/td&gt;
+		&lt;td class="ignore"&gt;F&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;C3&lt;/td&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td class="ignore"&gt;3&lt;/td&gt;
+		&lt;td class="ignore"&gt;2004&lt;/td&gt;
+		&lt;td class="ignore"&gt;1.4.2004&lt;/td&gt;
+		&lt;td class="ignore"&gt;T&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;C4&lt;/td&gt;
+		&lt;td class="ignore"&gt;12&lt;/td&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td class="ignore"&gt;2003&lt;/td&gt;
+		&lt;td class="ignore"&gt;12.2.2003&lt;/td&gt;
+		&lt;td class="ignore"&gt;F&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;C5&lt;/td&gt;
+		&lt;td class="ignore"&gt;12&lt;/td&gt;
+		&lt;td class="ignore"&gt;31&lt;/td&gt;
+		&lt;td class="ignore"&gt;2003&lt;/td&gt;
+		&lt;td class="ignore"&gt;1.1.2004&lt;/td&gt;
+		&lt;td class="ignore"&gt;F&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;C6&lt;/td&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td class="ignore"&gt;31&lt;/td&gt;
+		&lt;td class="ignore"&gt;2003&lt;/td&gt;
+		&lt;td class="ignore"&gt;2.1.2003&lt;/td&gt;
+		&lt;td class="ignore"&gt;F&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;C7&lt;/td&gt;
+		&lt;td class="ignore"&gt;2&lt;/td&gt;
+		&lt;td class="ignore"&gt;28&lt;/td&gt;
+		&lt;td class="ignore"&gt;2003&lt;/td&gt;
+		&lt;td class="ignore"&gt;3.1.2004&lt;/td&gt;
+		&lt;td class="ignore"&gt;F&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;C8&lt;/td&gt;
+		&lt;td class="ignore"&gt;2&lt;/td&gt;
+		&lt;td class="ignore"&gt;28&lt;/td&gt;
+		&lt;td class="ignore"&gt;2004&lt;/td&gt;
+		&lt;td class="ignore"&gt;2.29.2004&lt;/td&gt;
+		&lt;td class="ignore"&gt;T&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;C9&lt;/td&gt;
+		&lt;td class="ignore"&gt;2&lt;/td&gt;
+		&lt;td class="ignore"&gt;29&lt;/td&gt;
+		&lt;td class="ignore"&gt;2004&lt;/td&gt;
+		&lt;td class="ignore"&gt;3.1.2004&lt;/td&gt;
+		&lt;td class="ignore"&gt;T&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;C10&lt;/td&gt;
+		&lt;td class="ignore"&gt;3&lt;/td&gt;
+		&lt;td class="ignore"&gt;30&lt;/td&gt;
+		&lt;td class="ignore"&gt;2004&lt;/td&gt;
+		&lt;td class="ignore"&gt;3.31.2004&lt;/td&gt;
+		&lt;td class="ignore"&gt;F&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;C11&lt;/td&gt;
+		&lt;td class="ignore"&gt;5&lt;/td&gt;
+		&lt;td class="ignore"&gt;31&lt;/td&gt;
+		&lt;td class="ignore"&gt;2005&lt;/td&gt;
+		&lt;td class="ignore"&gt;6.1.2005&lt;/td&gt;
+		&lt;td class="ignore"&gt;F&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;C12&lt;/td&gt;
+		&lt;td class="ignore"&gt;7&lt;/td&gt;
+		&lt;td class="ignore"&gt;30&lt;/td&gt;
+		&lt;td class="ignore"&gt;2014&lt;/td&gt;
+		&lt;td class="ignore"&gt;7.31.2014&lt;/td&gt;
+		&lt;td class="ignore"&gt;T&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;h2&gt;Test Cases&lt;/h2&gt;
+&lt;br/&gt;Notes...&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="6"&gt;fit.date.NextDate&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;day&lt;/td&gt;
+		&lt;td&gt;month&lt;/td&gt;
+		&lt;td&gt;year&lt;/td&gt;
+		&lt;td class="error"&gt;nextDate&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find field: nextDate.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;isLeapYear&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;Case&lt;/td&gt;
+		&lt;td colspan="5"&gt; &lt;span class="fit_grey"&gt;0&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;2001&lt;/td&gt;
+		&lt;td class="error"&gt;1.2.2001&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:173)
+	at fit.Fixture.doRow(Fixture.java:167)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:161)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:155)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:120)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;false&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:173)
+	at fit.Fixture.doRow(Fixture.java:167)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:161)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:155)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:120)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;h2&gt;Results and Interpretation&lt;/h2&gt;
+&lt;br/&gt;Summarize and explain...&lt;br/&gt;&lt;br/&gt;</content>
+    <relativePageName>NextDate</relativePageName>
+          </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>53</totalRunTimeInMillis>
+  
+</testResults>
+

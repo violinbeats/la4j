@@ -1,0 +1,167 @@
+!1 Input Space Model and Test Cases for la4j
+
+!include .FitNesse.MyFitExamples.DateExample.DateHeader
+
+1. First test the behaviors of each class
+2. Use combinatorial method to test the input spec
+3. ...
+
+!2 Test Cases
+
+Notes...
+
+1. zero
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|      |row1  |col1  |zeroBasic2DMatrixTest? |
+|Case  |                                     |
+|1     |2     |3     |true                   |
+|2     |3     |2     |true                   |
+
+2. constant
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|     |row1 |col1 |constantBasic2DMatrixTest?|
+|Case |                                      |
+|1    |2    |3    |true                      |
+|2    |3    |2    |true                      |
+|3    |3    |3    |true                      |
+
+3. diagonal
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|       |size   |diagnolBasic2DMatrixTest?   |
+|Case   |                                    |
+|1      |0      |true                        |
+|2      |1      |true                        |
+|3      |2      |true                        |
+|4      |3      |true                        |
+|5      |4      |true                        |
+
+4. unit
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|      |row1  |col1  |unitBasic2DMatrixTest? |
+|Case  |                                     |
+|1     |2     |3     |true                   |
+|2     |3     |2     |true                   |
+|3     |3     |3     |true                   |
+
+5. identity
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|     |row1 |col1 |identityBasic2DMatrixTest?|
+|Case |                                      |
+|1    |2    |3    |true                      |
+|2    |3    |2    |true                      |
+|3    |3    |3    |true                      |
+
+6. random
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|      |row1 |col1 |randomBasic2DMatrixTest? |
+|Case  |                                     |
+|1     |2    |3    |true                     |
+|2     |3    |2    |true                     |
+|3     |3    |3    |true                     |
+|4     |1    |1    |true                     |
+|5     |10   |10   |true                     |
+
+7. randomSymmentric
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests     |
+|    |row1|col1|randomSymmentricBasic2DMatrixTest?|
+|Case|                                            |
+|1   |2   |3   |true                              |
+|2   |3   |2   |true                              |
+|3   |3   |3   |true                              |
+|4   |1   |1   |true                              |
+|5   |10  |10  |true                              |
+
+8. from1DArray
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|        |row1   |col1   |from1DArrayTest?   |
+|cases   |       |       |                   |
+|1       |2      |3      |true               |
+|2       |3      |2      |true               |
+|3       |3      |3      |true               |
+
+9. from2DArray
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|        |row1   |col1   |from2DArrayTest?   |
+|Case    |                                   |
+|1       |2      |3      |true               |
+|2       |3      |2      |true               |
+|3       |3      |3      |true               |
+
+10. blockTest
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests   |
+|    |mar|mac|mbr|mbc|mcr|mcc|mdr|mdc|blockTest?|
+|Case|                                          |
+|1   |1  |1  |1  |1  |1  |1  |1  |1  |true      |
+|2   |1  |2  |1  |1  |1  |1  |1  |1  |true      |
+|3   |1  |1  |3  |1  |1  |1  |1  |1  |true      |
+|4   |1  |1  |1  |4  |1  |1  |1  |1  |true      |
+|5   |1  |1  |1  |1  |5  |1  |1  |1  |true      |
+|6   |1  |1  |1  |1  |1  |6  |1  |1  |true      |
+|7   |1  |1  |1  |1  |1  |1  |7  |1  |true      |
+|8   |1  |1  |1  |1  |1  |1  |1  |8  |true      |
+|9   |9  |1  |1  |1  |1  |1  |1  |1  |true      |
+
+
+11. getTest
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|                    |getTest?               |
+|Case                |                       |
+|1                   |true                   |
+
+12. setTest
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|            |newValue       |setTest?       |
+|Case        |                               |
+|1           |-1             |true           |
+|2           |0              |true           |
+|3           |1              |true           |
+
+13. setAllTest
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|      |row1  |col1  |newValue  |setAllTest? |
+|Case  |                                     |
+|1     |2     |3     |1         |true        |
+|1     |3     |2     |1         |true        |
+|1     |2     |2     |1         |true        |
+|1     |2     |3     |0         |true        |
+|1     |3     |2     |0         |true        |
+|1     |2     |2     |0         |true        |
+|1     |2     |3     |-1        |true        |
+|1     |3     |2     |-1        |true        |
+|1     |2     |2     |-1        |true        |
+
+14. swapRowTest
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|                  |swapRowTest?             |
+|Case              |                         |
+|1                 |true                     |
+
+15. swapColumnTest
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|                |swapColumnTest?            |
+|Case            |                           |
+|1               |true                       |
+
+16. getRowTest
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|                  |getRowTest?              |
+|Case              |                         |
+|1                 |true                     |
+
+17. copyOfShapeTest
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|                |copyOfShapeTest?           |
+|Case            |                           |
+|1               |true                       |
+
+18. toArrayTest
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|                  |toArrayTest?             |
+|Case              |                         |
+|1                 |true                     |
+
+19. blankOfShapeTest
+|fit.org.la4j.matrix.dense.Basic2DMatrixTests|
+|               |blankOfShapeTest?           |
+|Case           |                            |
+|1              |true                        |

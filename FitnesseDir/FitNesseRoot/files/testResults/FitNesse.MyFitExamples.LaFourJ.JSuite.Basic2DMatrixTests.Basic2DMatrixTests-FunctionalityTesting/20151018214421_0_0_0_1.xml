@@ -1,0 +1,866 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>FitNesse.MyFitExamples.LaFourJ.JSuite.Basic2DMatrixTests.Basic2DMatrixTests-FunctionalityTesting</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>7</ignores>
+      <exceptions>19</exceptions>
+    </counts>
+    <runTimeInMillis>77</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;h1&gt;Input Space Model and Test Cases for la4j&lt;/h1&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.MyFitExamples.DateExample.DateHeader"&gt;.FitNesse.MyFitExamples.DateExample.DateHeader&lt;/a&gt; &lt;a href="FitNesse.MyFitExamples.DateExample.DateHeader?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;Warning: Make sure rerun cobertura instrumentation after updating java sources, disable cobertura classpath definitions, or remove instrumented classes (in ../target/generated-classes). You may have to do a "mvn clean" followed by "Project -&amp;gt; Clean". Otherwise Fitnesse will find old instrumented classes in the classpath rather than the newly compiled classes because of the given ordering of classpath definitions in the header file. &lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;fitnesse.fixtures&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: cobertura-2.0.3/cobertura-2.0.3.jar&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: FitnesseDir/cobertura-2.0.3/cobertura-2.0.3.jar&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;System property setter fixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;key&lt;/td&gt;
+		&lt;td&gt;value&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;net.sourceforge.cobertura.datafile&lt;/td&gt;
+		&lt;td&gt;/Users/Vincent/Documents/CMU/SVVT/L2/FitNesseLab-master/target/cobertura/cobertura.ser&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/classes&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/classes&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;1. First test the behaviors of each class&lt;br/&gt;2. Use combinatorial method to test the input spec&lt;br/&gt;3. ...&lt;br/&gt;&lt;br/&gt;Attributes of Basic2DMatrix&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;Comment&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3" class="ignore"&gt;Attributes&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;Method&lt;/td&gt;
+		&lt;td class="ignore"&gt;rows&lt;/td&gt;
+		&lt;td class="ignore"&gt;columns&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="ignore"&gt;&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;h2&gt;Test Cases&lt;/h2&gt;
+&lt;br/&gt;Notes...&lt;br/&gt;&lt;br/&gt;1. zero&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;zeroBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;2. constant&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;constantBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;3. diagonal&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;diagnolBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;4. unit&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;unitBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;5. identity&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;identityBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;6. random&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;randomBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;7. randomSymmentric&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;randomSymmentricBasic2DMatrixTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;8. from1DArray&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;from1DArrayTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;cases&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;9. from2DArray&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;from2DArrayTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;10. blockTest&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="10" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;mar&lt;/td&gt;
+		&lt;td&gt;mac&lt;/td&gt;
+		&lt;td&gt;mbr&lt;/td&gt;
+		&lt;td&gt;mbc&lt;/td&gt;
+		&lt;td&gt;mcr&lt;/td&gt;
+		&lt;td&gt;mcc&lt;/td&gt;
+		&lt;td&gt;mdr&lt;/td&gt;
+		&lt;td&gt;mdc&lt;/td&gt;
+		&lt;td&gt;blockTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td colspan="9"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;11. getTest&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;getTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;12. setTest&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;setTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;13. setAllTest&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;row1&lt;/td&gt;
+		&lt;td&gt;col1&lt;/td&gt;
+		&lt;td&gt;setAllTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;14. swapRowTest&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;swapRowTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;15. swapColumnTest&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;swapColumnTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;16. getRowTest&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;getRowTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;17. copyOfShapeTest&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.GeneratedConstructorAccessor1.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;copyOfShapeTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;18. toArrayTest&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.GeneratedConstructorAccessor1.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;toArrayTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;17. blankOfShapeTest&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2" class="error"&gt;fit.org.la4j.matrix.dense.Basic2DMatrixTests&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at fit.org.la4j.matrix.dense.Basic2DMatrixTests.&lt;init&gt;(Basic2DMatrixTests.java:335)
+	at sun.reflect.GeneratedConstructorAccessor1.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at fit.FixtureClass.newInstance(FixtureClass.java:24)
+	at fit.FixtureLoader.instantiateFixture(FixtureLoader.java:62)
+	at fit.FixtureLoader.instantiateFirstValidFixtureClass(FixtureLoader.java:84)
+	at fit.FixtureLoader.disgraceThenLoad(FixtureLoader.java:44)
+	at fit.Fixture.loadFixture(Fixture.java:141)
+	at fit.Fixture.getLinkedFixtureWithArgs(Fixture.java:133)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;blankOfShapeTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Case&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>Basic2DMatrixTests-FunctionalityTesting</relativePageName>
+          </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>77</totalRunTimeInMillis>
+  
+</testResults>
+
